@@ -1,0 +1,1216 @@
+/* line 1, app/assets/stylesheets/cchamp.css.scss */
+i {
+  font-size: 18px;
+  padding: 0 0 0 8px;
+  color: #fff;
+  text-shadow: 0 1px 3px #333;
+}
+
+/* line 8, app/assets/stylesheets/cchamp.css.scss */
+i {
+  cursor: default;
+}
+
+/* line 12, app/assets/stylesheets/cchamp.css.scss */
+a i {
+  cursor: pointer;
+}
+
+/* line 16, app/assets/stylesheets/cchamp.css.scss */
+i.el-icon-envelope {
+  font-size: 14px;
+}
+
+/* line 20, app/assets/stylesheets/cchamp.css.scss */
+i.padder-el {
+  display: inline-block;
+  width: 26px;
+}
+
+/* line 25, app/assets/stylesheets/cchamp.css.scss */
+img.facebook-logo {
+  height: 16px;
+  width: 16px;
+}
+
+/* line 30, app/assets/stylesheets/cchamp.css.scss */
+.twitter-follow-button {
+  position: relative !important;
+}
+
+/* line 34, app/assets/stylesheets/cchamp.css.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 38, app/assets/stylesheets/cchamp.css.scss */
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+/* line 42, app/assets/stylesheets/cchamp.css.scss */
+a.no-spaces {
+  white-space: nowrap;
+}
+
+/* line 46, app/assets/stylesheets/cchamp.css.scss */
+body {
+  padding-top: 20px;
+  background-image: url(../img/cchamp_bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom left;
+}
+
+/* line 54, app/assets/stylesheets/cchamp.css.scss */
+input, textarea, select {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* line 58, app/assets/stylesheets/cchamp.css.scss */
+nav.header {
+  padding-left: 120px;
+  background-image: url(../img/green_cup.png);
+  box-shadow: inset 0px 0px 7px 2px #859460;
+  -moz-box-shadow: inset 0px 0px 7px 2px #859460;
+  -webkit-box-shadow: inset 0px 0px 7px 2px #859460;
+}
+
+/* line 66, app/assets/stylesheets/cchamp.css.scss */
+div.navbar-collapse.in li.divider,
+div.navbar-collapse.collapsing li.divider {
+  display: none;
+}
+
+/* line 71, app/assets/stylesheets/cchamp.css.scss */
+.navbar-brand {
+  position: absolute;
+  left: 0px;
+  top: -35px;
+  z-index: 1000;
+}
+
+/* line 78, app/assets/stylesheets/cchamp.css.scss */
+#game-time a {
+  color: #616655 !important;
+}
+
+/* line 82, app/assets/stylesheets/cchamp.css.scss */
+.well {
+  box-shadow: none;
+  background-image: url(../img/debut_light.png);
+}
+
+/* line 87, app/assets/stylesheets/cchamp.css.scss */
+.label {
+  font-weight: normal;
+  font-size: 85%;
+}
+
+/* line 92, app/assets/stylesheets/cchamp.css.scss */
+.checkbox-inline, .checkbox, .radio-inline, .radio {
+  line-height: 1.8;
+}
+
+/* line 96, app/assets/stylesheets/cchamp.css.scss */
+.alert {
+  color: #666;
+  background: none;
+  background-color: rgba(21, 21, 21, 0.2) !important;
+  border: none;
+  text-align: center;
+  padding: 6px;
+}
+
+/* line 108, app/assets/stylesheets/cchamp.css.scss */
+.sidebar-nav .nav-list {
+  border-color: #ccc;
+  border-width: 0 0 0 0;
+  border-style: dotted;
+  font-size: 12px;
+}
+
+/* line 115, app/assets/stylesheets/cchamp.css.scss */
+.sidebar-nav .nav-list li {
+  margin: 0px;
+}
+
+/* line 119, app/assets/stylesheets/cchamp.css.scss */
+.sidebar-nav .nav-list li a:not(.up) {
+  padding: 4px !important;
+  border-color: #ccc;
+  border-width: 0px 0px 0px 0px;
+  border-style: dotted;
+  color: #666;
+}
+
+/* line 127, app/assets/stylesheets/cchamp.css.scss */
+.sidebar-nav .nav-list li a.up {
+  padding: 3px !important;
+  border-bottom: dashed #c97330 1px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+}
+
+/* line 134, app/assets/stylesheets/cchamp.css.scss */
+.sidebar-nav .nav-list li a.active {
+  color: #c97330;
+  background-color: #fff;
+}
+
+/* line 143, app/assets/stylesheets/cchamp.css.scss */
+.sidebar-nav .nav-list li a:not(.up):not(.active):hover {
+  color: #c97330 !important;
+  background: none;
+}
+
+/* line 148, app/assets/stylesheets/cchamp.css.scss */
+.sidebar-nav .menu-button {
+  margin-top: 10px;
+}
+
+/* line 152, app/assets/stylesheets/cchamp.css.scss */
+.header .navbar-left {
+  border-radius: 1px;
+  border: solid #7f8571 1px;
+  margin: 12px 0px;
+}
+
+/* line 158, app/assets/stylesheets/cchamp.css.scss */
+.header .navbar-left li.divider {
+  width: 1px;
+  background-color: #7f8571;
+  padding: 4px 0px;
+}
+
+/* line 164, app/assets/stylesheets/cchamp.css.scss */
+.header .navbar-left li a {
+  border-radius: 1px;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: inset 0px 0px 2px 1px #8d975e;
+  -moz-box-shadow: inset 0px 0px 2px 1px #8d975e;
+  -webkit-box-shadow: inset 0px 0px 2px 1px #8d975e;
+  padding: 4px 10px !important;
+}
+
+/* line 173, app/assets/stylesheets/cchamp.css.scss */
+.header .navbar-left li.active a, .header .navbar-left li.active a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* line 177, app/assets/stylesheets/cchamp.css.scss */
+.header .navbar-left li a.navbar-primary {
+  color: #7f8571 !important;
+  background-color: #ffd859;
+  box-shadow: inset 0px 0px 2px 1px #e8af2a;
+  -moz-box-shadow: inset 0px 0px 2px 1px #e8af2a;
+  -webkit-box-shadow: inset 0px 0px 2px 1px #e8af2a;
+}
+
+/* line 185, app/assets/stylesheets/cchamp.css.scss */
+.header .register {
+  margin-left: 30px;
+}
+
+/* line 189, app/assets/stylesheets/cchamp.css.scss */
+.header .navbar-left li:not(.active) a:hover {
+  color: #333 !important;
+  background-color: #ffd859;
+  box-shadow: inset 0px 0px 2px 1px #e4bb36;
+  -moz-box-shadow: inset 0px 0px 2px 1px #e4bb36;
+  -webkit-box-shadow: inset 0px 0px 2px 1px #e4bb36;
+}
+
+/* line 197, app/assets/stylesheets/cchamp.css.scss */
+.header .navbar-left li a.navbar-primary:hover {
+  color: #000 !important;
+  background-color: #e8af2a;
+  box-shadow: inset 0px 0px 2px 1px #c97330;
+  -moz-box-shadow: inset 0px 0px 2px 1px #c97330;
+  -webkit-box-shadow: inset 0px 0px 2px 1px #c97330;
+}
+
+/* line 205, app/assets/stylesheets/cchamp.css.scss */
+.navbar-text {
+  color: #616655 !important;
+}
+
+/* line 209, app/assets/stylesheets/cchamp.css.scss */
+.strap {
+  color: #666;
+  position: absolute;
+  right: -8px;
+  top: -26px;
+  font-size: smaller;
+}
+
+/* line 217, app/assets/stylesheets/cchamp.css.scss */
+.centre {
+  text-align: center !important;
+}
+
+/* line 221, app/assets/stylesheets/cchamp.css.scss */
+.page {
+  margin-bottom: 50px;
+}
+
+/* line 225, app/assets/stylesheets/cchamp.css.scss */
+nav.footer {
+  text-align: center;
+  height: 30px;
+  font-size: smaller;
+}
+
+/* line 231, app/assets/stylesheets/cchamp.css.scss */
+nav.footer iframe {
+  position: relative;
+  left: 6px;
+  top: 6px;
+}
+
+/* line 237, app/assets/stylesheets/cchamp.css.scss */
+.google-ads {
+  margin-left: 2px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  /* line 243, app/assets/stylesheets/cchamp.css.scss */
+  .google-ads {
+    width: 320px;
+    height: 50px;
+  }
+}
+
+/* line 250, app/assets/stylesheets/cchamp.css.scss */
+#ads_rhs .google-ads {
+  margin-top: 0px;
+}
+
+/* line 254, app/assets/stylesheets/cchamp.css.scss */
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+
+/* line 260, app/assets/stylesheets/cchamp.css.scss */
+h1 {
+  font-size: 1.6em;
+  margin: 1em 0;
+  border-bottom: dashed #c97330 2px;
+  /*border-bottom: dashed #a32121 2px;*/
+}
+
+/* line 267, app/assets/stylesheets/cchamp.css.scss */
+h2 {
+  font-size: 1.4em;
+  margin: 1em 0;
+}
+
+/* line 272, app/assets/stylesheets/cchamp.css.scss */
+h3 {
+  font-size: 1.2em;
+  margin: 1em 0;
+}
+
+/* line 277, app/assets/stylesheets/cchamp.css.scss */
+h4 {
+  font-size: 1.1em;
+  margin: 0.5em 0;
+}
+
+/* line 282, app/assets/stylesheets/cchamp.css.scss */
+h5 {
+  font-size: 1em;
+  margin: 0.4em 0;
+}
+
+/* line 287, app/assets/stylesheets/cchamp.css.scss */
+h1.inside-jumbo {
+  margin: 0 0 20px 0;
+  border: none;
+}
+
+/* line 292, app/assets/stylesheets/cchamp.css.scss */
+.truncate-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 297, app/assets/stylesheets/cchamp.css.scss */
+.player-stat {
+  border-radius: 12px;
+  color: #333;
+  background-color: #fff;
+  border: solid #ddd 1px;
+  font-weight: normal;
+}
+
+/* line 305, app/assets/stylesheets/cchamp.css.scss */
+.skill-high {
+  background-color: #f16e4d;
+  border: solid #c7573b 1px;
+  color: #fff;
+}
+
+/* line 311, app/assets/stylesheets/cchamp.css.scss */
+.skill-middle {
+  background-color: #ffd0c4;
+  border: solid #ff9175 1px;
+}
+
+/* line 316, app/assets/stylesheets/cchamp.css.scss */
+.skill-low {
+  background-color: #ffede8;
+  border: solid #ffd0c4 1px;
+}
+
+/* line 321, app/assets/stylesheets/cchamp.css.scss */
+.age-high, .morale-high {
+  border: solid #3b92f5 1px;
+  -webkit-box-shadow: inset 0px 0px 5px 0px #3b92f5;
+  -moz-box-shadow: inset 0px 0px 5px 0px #3b92f5;
+  box-shadow: inset 0px 0px 5px 0px #3b92f5;
+}
+
+/* line 328, app/assets/stylesheets/cchamp.css.scss */
+.age-middle, .morale-middle {
+  border: solid #88c0ff 1px;
+  -webkit-box-shadow: inset 0px 0px 5px 0px #88c0ff;
+  -moz-box-shadow: inset 0px 0px 5px 0px #88c0ff;
+  box-shadow: inset 0px 0px 5px 0px #88c0ff;
+}
+
+/* line 335, app/assets/stylesheets/cchamp.css.scss */
+.age-low, .morale-low {
+  border: solid #badaff 1px;
+  -webkit-box-shadow: inset 0px 0px 5px 0px #badaff;
+  -moz-box-shadow: inset 0px 0px 5px 0px #badaff;
+  box-shadow: inset 0px 0px 5px 0px #badaff;
+}
+
+/* line 342, app/assets/stylesheets/cchamp.css.scss */
+div.devise-links {
+  padding-top: 1em;
+}
+
+/* line 346, app/assets/stylesheets/cchamp.css.scss */
+a.devise-link {
+  display: block;
+  padding-top: 0.5em;
+}
+
+/* line 351, app/assets/stylesheets/cchamp.css.scss */
+div.heading_with_widget h1 {
+  margin-bottom: 0;
+}
+
+/* line 355, app/assets/stylesheets/cchamp.css.scss */
+div.heading_with_widget div.widget {
+  float: right;
+  padding: 0 0 0.5em 0;
+  margin-top: 0em;
+}
+
+/* line 361, app/assets/stylesheets/cchamp.css.scss */
+.table-wrapper {
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+/* line 366, app/assets/stylesheets/cchamp.css.scss */
+td {
+  padding-right: 1em;
+}
+
+/* line 370, app/assets/stylesheets/cchamp.css.scss */
+th {
+  padding-right: 1em;
+  vertical-align: top;
+  text-align: center;
+}
+
+/* line 376, app/assets/stylesheets/cchamp.css.scss */
+th.name {
+  text-align: right;
+}
+
+/* line 380, app/assets/stylesheets/cchamp.css.scss */
+td.name {
+  text-align: left;
+  padding-right: 4em;
+}
+
+/* line 385, app/assets/stylesheets/cchamp.css.scss */
+td.text {
+  text-align: left;
+  padding-right: 2em;
+}
+
+/* line 390, app/assets/stylesheets/cchamp.css.scss */
+th.row_title {
+  text-align: right;
+  padding-right: 2em;
+}
+
+/* line 395, app/assets/stylesheets/cchamp.css.scss */
+td.centre {
+  text-align: center;
+}
+
+/* line 399, app/assets/stylesheets/cchamp.css.scss */
+td.control {
+  text-align: center;
+}
+
+/* line 403, app/assets/stylesheets/cchamp.css.scss */
+td.number {
+  text-align: right;
+}
+
+/* line 407, app/assets/stylesheets/cchamp.css.scss */
+td.number-bubble {
+  text-align: center;
+}
+
+/* line 411, app/assets/stylesheets/cchamp.css.scss */
+td.time {
+  text-align: center;
+}
+
+/* line 415, app/assets/stylesheets/cchamp.css.scss */
+td.date {
+  text-align: right;
+}
+
+/* line 419, app/assets/stylesheets/cchamp.css.scss */
+table.batsman_inn {
+  padding-bottom: 1em;
+  border-collapse: separate;
+}
+
+/* line 424, app/assets/stylesheets/cchamp.css.scss */
+table.batsman_inn td {
+  text-align: right;
+}
+
+/* line 428, app/assets/stylesheets/cchamp.css.scss */
+table.four-day-weather-table th {
+  width: 25%;
+}
+
+/* line 432, app/assets/stylesheets/cchamp.css.scss */
+table.four-day-weather-table td.current,
+table.one-day-weather-table td.current,
+table.four-day-weather-table th.current,
+table.one-day-weather-table th.current {
+  background-color: #ededed;
+}
+
+/* line 439, app/assets/stylesheets/cchamp.css.scss */
+li.current-day {
+  font-weight: bold;
+}
+
+/* line 443, app/assets/stylesheets/cchamp.css.scss */
+table.one-day-weather-table th {
+  width: 25%;
+}
+
+/* line 447, app/assets/stylesheets/cchamp.css.scss */
+.clearing {
+  clear: both;
+}
+
+/* line 451, app/assets/stylesheets/cchamp.css.scss */
+img.icon {
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  vertical-align: middle;
+}
+
+/* line 457, app/assets/stylesheets/cchamp.css.scss */
+h1 img.icon {
+  vertical-align: top;
+}
+
+/* line 461, app/assets/stylesheets/cchamp.css.scss */
+a.icon i {
+  font-size: inherit;
+}
+
+/* line 465, app/assets/stylesheets/cchamp.css.scss */
+table .list-inline {
+  margin: 0;
+}
+
+/* line 469, app/assets/stylesheets/cchamp.css.scss */
+td.close_left {
+  padding-left: 0;
+}
+
+/* line 473, app/assets/stylesheets/cchamp.css.scss */
+td.close_right, th.close_right {
+  padding-right: 0;
+}
+
+/* line 477, app/assets/stylesheets/cchamp.css.scss */
+.news-title {
+  margin: 0;
+}
+
+/* line 481, app/assets/stylesheets/cchamp.css.scss */
+.news-footer a {
+  font-size: smaller;
+  color: #c97330;
+  padding-right: 2em;
+}
+
+/* line 487, app/assets/stylesheets/cchamp.css.scss */
+div.innings_scorecard {
+  padding-top: 1.5em;
+}
+
+/* line 491, app/assets/stylesheets/cchamp.css.scss */
+.innings_section,
+.match_section,
+.match_notes {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+/* line 498, app/assets/stylesheets/cchamp.css.scss */
+div.innings-performance-summary {
+  padding-top: 5px;
+}
+
+/* line 502, app/assets/stylesheets/cchamp.css.scss */
+table.innings td {
+  text-align: left;
+  padding-right: 1em;
+}
+
+/* line 507, app/assets/stylesheets/cchamp.css.scss */
+table.innings td.number {
+  text-align: right;
+}
+
+/* line 511, app/assets/stylesheets/cchamp.css.scss */
+table.innings th.name {
+  text-align: left;
+}
+
+/* line 515, app/assets/stylesheets/cchamp.css.scss */
+table.innings td.total {
+  font-weight: bold;
+}
+
+/* line 519, app/assets/stylesheets/cchamp.css.scss */
+table.innings td.extras {
+  text-align: center;
+}
+
+/* line 523, app/assets/stylesheets/cchamp.css.scss */
+div.league_table, div.league_info {
+  padding-bottom: 1em;
+}
+
+/* line 527, app/assets/stylesheets/cchamp.css.scss */
+table#league_fixtures tr.date_row th {
+  padding-top: 0.8em;
+}
+
+/* line 531, app/assets/stylesheets/cchamp.css.scss */
+table#league-divisions tr.first-in-tier {
+  border-top: solid #c97330 1px;
+}
+
+/* line 535, app/assets/stylesheets/cchamp.css.scss */
+.tier-row {
+  padding-bottom: 24px;
+}
+
+/* line 539, app/assets/stylesheets/cchamp.css.scss */
+.tier-row-division {
+  padding-bottom: 12px;
+}
+
+/* line 543, app/assets/stylesheets/cchamp.css.scss */
+div.innings_summary {
+  padding-bottom: 1em;
+}
+
+/* line 547, app/assets/stylesheets/cchamp.css.scss */
+div.player_section {
+  padding-bottom: 12px;
+}
+
+/* line 551, app/assets/stylesheets/cchamp.css.scss */
+div.player_section div.row {
+  padding-bottom: 0.25em;
+  padding-top: 0.25em;
+}
+
+/* line 556, app/assets/stylesheets/cchamp.css.scss */
+div.stats div.panel h4 {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+/* line 561, app/assets/stylesheets/cchamp.css.scss */
+div.stats td.stat_team_name {
+  padding-left: 2em;
+}
+
+/* line 565, app/assets/stylesheets/cchamp.css.scss */
+div#partnerships div.partnership-total,
+div#partnerships div.partnership-number {
+  text-align: right;
+}
+
+/* line 570, app/assets/stylesheets/cchamp.css.scss */
+div#partnerships div.partnership-right {
+  text-align: left;
+}
+
+/* line 574, app/assets/stylesheets/cchamp.css.scss */
+div#partnerships div.partnership-left {
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  /* line 579, app/assets/stylesheets/cchamp.css.scss */
+  div#partnerships div.partnership-total {
+    padding-right: 3em;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 585, app/assets/stylesheets/cchamp.css.scss */
+  div#partnerships div.partnership-right,
+div#partnerships div.partnership-left {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  /* line 591, app/assets/stylesheets/cchamp.css.scss */
+  div#partnerships div.partnership-left {
+    text-align: left;
+  }
+  /* line 595, app/assets/stylesheets/cchamp.css.scss */
+  div#partnerships div.partnership-right {
+    text-align: right;
+  }
+  /* line 599, app/assets/stylesheets/cchamp.css.scss */
+  div#partnerships div.partnership-total,
+div#partnerships div.partnership-number {
+    text-align: left;
+  }
+}
+
+/* line 605, app/assets/stylesheets/cchamp.css.scss */
+div#partnerships div.progress {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 610, app/assets/stylesheets/cchamp.css.scss */
+div#partnerships span.partnership-contribution {
+  text-align: right;
+}
+
+/* line 614, app/assets/stylesheets/cchamp.css.scss */
+div.partnership-left span.partnership-contribution {
+  float: right;
+}
+
+/* line 618, app/assets/stylesheets/cchamp.css.scss */
+div.partnership-right span.partnership-contribution {
+  float: left;
+}
+
+/* line 622, app/assets/stylesheets/cchamp.css.scss */
+div#partnerships span.partnership-contribution {
+  width: 7em;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* line 628, app/assets/stylesheets/cchamp.css.scss */
+div#partnerships div.row {
+  margin-top: 20px;
+}
+
+/* line 632, app/assets/stylesheets/cchamp.css.scss */
+div.league_table tr.promote_above_and_including td {
+  border-bottom: #ededed solid 1px;
+}
+
+/* line 636, app/assets/stylesheets/cchamp.css.scss */
+div.league_table tr.promotion_chance_above_and_including td {
+  border-bottom: #ededed dashed 1px;
+}
+
+/* line 640, app/assets/stylesheets/cchamp.css.scss */
+div.league_table tr.relegate_below_and_including td {
+  border-top: #ededed solid 1px;
+}
+
+/* line 644, app/assets/stylesheets/cchamp.css.scss */
+div.league_table td.league_position_number {
+  text-align: center;
+}
+
+/* line 648, app/assets/stylesheets/cchamp.css.scss */
+div.league_table td.number {
+  text-align: right;
+}
+
+/* line 652, app/assets/stylesheets/cchamp.css.scss */
+div.rating-label {
+  text-align: right;
+}
+
+/* line 656, app/assets/stylesheets/cchamp.css.scss */
+div#ratings_graph {
+  width: 400px;
+  height: 200px;
+}
+
+/* line 661, app/assets/stylesheets/cchamp.css.scss */
+th.control {
+  text-align: left;
+}
+
+/* line 665, app/assets/stylesheets/cchamp.css.scss */
+table#training td {
+  vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+  /* line 670, app/assets/stylesheets/cchamp.css.scss */
+  table#training th.narrow {
+    width: 128px;
+  }
+}
+
+/* line 675, app/assets/stylesheets/cchamp.css.scss */
+div.training-report ul {
+  list-style-type: none;
+  padding-left: 1em;
+  margin-left: 0;
+}
+
+/* line 681, app/assets/stylesheets/cchamp.css.scss */
+div#mini_squad {
+  height: 35em;
+  max-height: 35em;
+  overflow: auto;
+  padding-left: 2em;
+}
+
+/* line 688, app/assets/stylesheets/cchamp.css.scss */
+ul.squad-nav {
+  padding-bottom: 1em;
+}
+
+/* line 692, app/assets/stylesheets/cchamp.css.scss */
+ul.squad-nav a.selected-filter {
+  font-weight: bold;
+}
+
+/* line 696, app/assets/stylesheets/cchamp.css.scss */
+table#pick_eleven td {
+  text-align: center;
+}
+
+/* line 700, app/assets/stylesheets/cchamp.css.scss */
+table#pick_eleven td.name {
+  text-align: left;
+  vertical-align: middle;
+}
+
+/* line 705, app/assets/stylesheets/cchamp.css.scss */
+table#pick_eleven td input {
+  display: inline;
+}
+
+/* line 709, app/assets/stylesheets/cchamp.css.scss */
+table#pick_eleven select.player_id {
+  min-width: 15em;
+}
+
+/* line 713, app/assets/stylesheets/cchamp.css.scss */
+table#pick_eleven input.bowling-spell-input {
+  min-width: 40px;
+}
+
+/* line 717, app/assets/stylesheets/cchamp.css.scss */
+form#friendly_broker legend {
+  font-size: medium;
+}
+
+/* line 721, app/assets/stylesheets/cchamp.css.scss */
+img.sorter {
+  padding: 0.2em 0.3em 0.2em 0.3em;
+  vertical-align: top;
+}
+
+/* line 726, app/assets/stylesheets/cchamp.css.scss */
+a.strength_expander {
+  padding-left: 0.2em;
+}
+
+/* line 730, app/assets/stylesheets/cchamp.css.scss */
+td.batting_strengths,
+td.bowling_strengths {
+  text-align: left;
+}
+
+/* line 735, app/assets/stylesheets/cchamp.css.scss */
+th.with_expander {
+  white-space: nowrap;
+}
+
+/* line 739, app/assets/stylesheets/cchamp.css.scss */
+.radio label input[type="radio"] {
+  position: relative;
+  float: left;
+}
+
+/* line 744, app/assets/stylesheets/cchamp.css.scss */
+input.inline-control-sm,
+select.inline-control-sm {
+  width: 10em;
+}
+
+/* line 749, app/assets/stylesheets/cchamp.css.scss */
+input.inline-control-md,
+select.inline-control-md {
+  width: 20em;
+}
+
+/* line 754, app/assets/stylesheets/cchamp.css.scss */
+div.space-below {
+  padding-bottom: 0.5em;
+}
+
+/* line 758, app/assets/stylesheets/cchamp.css.scss */
+div.ground_container {
+  float: left;
+  position: relative;
+}
+
+/* line 763, app/assets/stylesheets/cchamp.css.scss */
+img.field_position_icon {
+  position: absolute;
+}
+
+/* line 767, app/assets/stylesheets/cchamp.css.scss */
+img.icon_highlighted {
+  background-image: url(/assets/field_position_highlight-66e4d6d49da0f50080956f00395f1da63c16d1d686d659ef1f9e3797c6d5194b.png);
+}
+
+/* line 771, app/assets/stylesheets/cchamp.css.scss */
+div.name_highlighted {
+  font-weight: bold;
+}
+
+/* line 775, app/assets/stylesheets/cchamp.css.scss */
+div.infographic h2 {
+  color: #c97330;
+}
+
+@media (min-width: 970px) {
+  /* line 780, app/assets/stylesheets/cchamp.css.scss */
+  div.infographic-rhs {
+    position: relative;
+    left: -120px;
+  }
+}
+
+/* line 786, app/assets/stylesheets/cchamp.css.scss */
+div.errorExplanation {
+  border: #C97330 solid 1px;
+  padding: 0.5em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  width: 35em;
+}
+
+/* line 794, app/assets/stylesheets/cchamp.css.scss */
+div.errorExplanation h3 {
+  margin: 0;
+  padding: 0;
+  color: #C97330;
+}
+
+/* line 800, app/assets/stylesheets/cchamp.css.scss */
+div.errorExplanation ul {
+  padding-left: 3em;
+}
+
+/* line 804, app/assets/stylesheets/cchamp.css.scss */
+ul.links-list li {
+  padding-bottom: 0.3em;
+}
+
+/* line 808, app/assets/stylesheets/cchamp.css.scss */
+div.team_leagues {
+  margin-top: 1em;
+}
+
+/* line 812, app/assets/stylesheets/cchamp.css.scss */
+div.team_leagues div.league {
+  text-align: right;
+}
+
+/* line 816, app/assets/stylesheets/cchamp.css.scss */
+div.change-graph {
+  width: auto;
+  height: 300px;
+}
+
+/* line 821, app/assets/stylesheets/cchamp.css.scss */
+div#graph-tooltip {
+  position: absolute;
+  display: none;
+}
+
+/* line 826, app/assets/stylesheets/cchamp.css.scss */
+div#graph-legend {
+  width: 100px;
+  height: 100px;
+}
+
+/* line 831, app/assets/stylesheets/cchamp.css.scss */
+dl.team-shortlist dt {
+  padding: 8px;
+}
+
+/* line 835, app/assets/stylesheets/cchamp.css.scss */
+dl.team-shortlist dd {
+  padding: 0 0 8px 0;
+}
+
+/* Drag and drop styles */
+/* line 841, app/assets/stylesheets/cchamp.css.scss */
+.drop_player {
+  background: #EDEDED;
+}
+
+/* line 845, app/assets/stylesheets/cchamp.css.scss */
+.ui-draggable a {
+  cursor: move;
+}
+
+/* line 849, app/assets/stylesheets/cchamp.css.scss */
+.pick_eleven_row .row_number {
+  cursor: move;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 857, app/assets/stylesheets/cchamp.css.scss */
+#pick_eleven .bowling-headers-type {
+  position: relative;
+  top: 30px;
+}
+
+/* line 862, app/assets/stylesheets/cchamp.css.scss */
+.aggression-selector, .number-selector {
+  padding-left: 4px;
+  width: 5em;
+}
+
+/* line 867, app/assets/stylesheets/cchamp.css.scss */
+.pseudo-form-control {
+  margin: 10px 2px 2px 6px !important;
+}
+
+/* line 871, app/assets/stylesheets/cchamp.css.scss */
+.compressed-form-groups .form-group {
+  margin-bottom: 6px !important;
+}
+
+/* line 875, app/assets/stylesheets/cchamp.css.scss */
+.compressed-form-control {
+  margin: 0 !important;
+  padding: 2px !important;
+}
+
+/* line 880, app/assets/stylesheets/cchamp.css.scss */
+.compressed-form-first-control {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  padding-right: 2px !important;
+}
+
+/* line 889, app/assets/stylesheets/cchamp.css.scss */
+span.release-date {
+  font-size: smaller;
+}
+
+/* line 893, app/assets/stylesheets/cchamp.css.scss */
+div.axisLabels {
+  color: #333333 !important;
+}
+
+/* line 897, app/assets/stylesheets/cchamp.css.scss */
+.online {
+  color: #a3d376;
+}
+
+/* line 901, app/assets/stylesheets/cchamp.css.scss */
+.offline {
+  color: #e88a88;
+}
+
+/* line 905, app/assets/stylesheets/cchamp.css.scss */
+#member-banner div {
+  background: #e3e3e3;
+  background: -moz-linear-gradient(top, #e3e3e3, #c8c8c8);
+  background: -webkit-gradient(linear, left top, left bottom, from(#e3e3e3), to(#c8c8c8));
+  padding: 10px 20px;
+  margin-left: -20px;
+  margin-top: 0;
+  position: relative;
+  left: -20px;
+  width: 100%;
+  -moz-box-shadow: 1px 1px 3px #292929;
+  -webkit-box-shadow: 1px 1px 3px #292929;
+  box-shadow: 1px 1px 3px #292929;
+  color: #454545;
+  text-shadow: 0 1px 0 white;
+}
+
+/* line 922, app/assets/stylesheets/cchamp.css.scss */
+#member-banner-arrow {
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border-left: 20px solid transparent;
+  border-top: 10px solid #c8c8c8;
+  top: 104%;
+  left: 0;
+  position: absolute;
+}
+
+/* line 932, app/assets/stylesheets/cchamp.css.scss */
+p.external-link-warning {
+  font-style: italic;
+}
+
+/* line 936, app/assets/stylesheets/cchamp.css.scss */
+div.user-message blockquote {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* line 941, app/assets/stylesheets/cchamp.css.scss */
+#all-checkboxes-actions {
+  margin-left: 8px;
+}
+
+/* line 945, app/assets/stylesheets/cchamp.css.scss */
+div.feature-modal,
+div.feature-modal div.modal-body {
+  overflow: auto;
+}
+
+/* line 950, app/assets/stylesheets/cchamp.css.scss */
+#last-match {
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 956, app/assets/stylesheets/cchamp.css.scss */
+.season-selector {
+  padding-right: 20px;
+}
+
+/* line 960, app/assets/stylesheets/cchamp.css.scss */
+.commentary-template-row {
+  padding-bottom: 15px;
+}
+
+/* line 964, app/assets/stylesheets/cchamp.css.scss */
+span.subtle-warning i {
+  color: #ffc0c0;
+}
+
+/* line 968, app/assets/stylesheets/cchamp.css.scss */
+span.subtle-okay i {
+  color: #c0ffc0;
+}
+
+/* line 972, app/assets/stylesheets/cchamp.css.scss */
+#main-content:focus {
+  outline: none;
+}
+
+/* line 976, app/assets/stylesheets/cchamp.css.scss */
+#skip-to-content:focus {
+  color: #557938;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media (min-width: 768px) {
+  /* line 985, app/assets/stylesheets/cchamp.css.scss */
+  #left-content {
+    max-width: 190px;
+  }
+}
+
+/* line 990, app/assets/stylesheets/cchamp.css.scss */
+.dissolved-team,
+.inactive-team {
+  font-style: italic;
+}
+
+/* line 995, app/assets/stylesheets/cchamp.css.scss */
+.like-button {
+  vertical-align: text-bottom;
+}
+
+/* line 999, app/assets/stylesheets/cchamp.css.scss */
+.like-button.liked {
+  color: #c97330;
+}
+
+/* line 1003, app/assets/stylesheets/cchamp.css.scss */
+.player-skills-row {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* line 1008, app/assets/stylesheets/cchamp.css.scss */
+.threshold-label {
+  text-align: center;
+}
+
+/* line 1012, app/assets/stylesheets/cchamp.css.scss */
+.threshold-default-label {
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+}
+
+/* line 1018, app/assets/stylesheets/cchamp.css.scss */
+.form-group.threshold-default-label-group {
+  margin-top: -10px;
+}
+
+/* line 1022, app/assets/stylesheets/cchamp.css.scss */
+.mini-scoreboard-row {
+  /*padding-top: 1em;*/
+  padding-bottom: 2em;
+}
